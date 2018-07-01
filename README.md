@@ -4,20 +4,19 @@
 Web Application Development
 
 ### Assignment Date:  
-(June 29, 2018)
+(June 30, 2018)
 
 ### Student Name:  
 (Chelsea Beckton)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+(This assignment is used to create an application that is able to determine an individual's tax bracket based upon their marital status and their income.)
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+(https://cbeckton.github.io/lesson5_javascript2/)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
+1. (In this lesson we learned )
 2. (Briefly describe a lesson/concept learned in this lesson.)
 3. (Briefly describe a lesson/concept learned in this lesson.)
 

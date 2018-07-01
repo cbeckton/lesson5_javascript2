@@ -78,6 +78,43 @@ function calculateTax(){
            
           else if(status == 1) {
                 //INSERT YOUR CODE BELOW
+                if (income <= 18450){
+                 tax = income * 0.10;
+                 taxRate = 10;
+               }//end of nested if
+               else if (income <= 74900 ) {
+                 tax = 18450 * 0.10 + (income - 18450) * 0.15;
+                 taxRate = 15;
+               }//end of else if
+               else if (income <= 151200) {
+                   
+                   tax = 18450 * 0.10 + (74900 - 18450) * 0.15 + (income - 74900) * 0.25;
+                 taxRate = 25;
+               } //end of else if
+               else if (income <= 230450 ) {
+                 tax = 18450 * 0.10 + (74900 - 18450) * 0.15 +
+                       (151200 - 74900) * 0.25 + (income - 151200) * 0.28;
+                 taxRate = 28;
+               }//end of else if
+               else if (income <= 411500 ) {
+                 tax = 18450 * 0.10 + (74900 - 18450) * 0.15 +
+                       (15120 - 74900) * 0.25 + (230450 - 151200) * 0.28 +
+                       (income - 230450) * 0.33;
+                 taxRate = 33;
+               }//end of else if
+               else if (income <= 464850) {
+                  tax = 18450 * 0.10 + (37450 - 18450) * 0.15 +
+                        (15120 - 74900) * 0.25 + (230450 - 151200) * 0.28 +
+                        (411500 - 189300) * 0.33 + (income - 411500) * 0.35;
+                  taxRate = 35;
+               }//end of else if
+               else {
+                  tax = 18450 * 0.10 + (37450 - 18450) * 0.15 +
+                        (15120 - 74900) * 0.25 + (230450 - 151200) * 0.28 +
+                        (411500 - 189300) * 0.33 + (464850 - 411500 ) * 0.35 + (income - 464850) * .396;
+                  taxRate = 39.6;
+               }//end of else
+
   
   
   
@@ -105,6 +142,42 @@ function calculateTax(){
                  
           else if(status == 2) {
                 //INSERT YOUR CODE BELOW
+                if (income <= 9225){
+                 tax = income * 0.10;
+                 taxRate = 10;
+               }//end of nested if
+               else if (income <= 37450) {
+                 tax = 9225 * 0.10 + (income - 9225) * 0.15;
+                 taxRate = 15;
+               }//end of else if
+               else if (income <= 75600) {
+                 tax = 9225 * 0.10 + (37450 - 9225) * 0.15 + (income - 37450) * 0.25;
+                 taxRate = 25;
+                } //end of else if
+               else if (income <= 115225) {
+                 tax = 9225 * 0.10 + (37450 - 9225) * 0.15 +
+                       (75600 - 37450) * 0.25 + (income - 75600) * 0.28;
+                 taxRate = 28;
+               }//end of else if
+               else if (income <= 411500) {
+                 tax = 9225 * 0.10 + (37450 - 9225) * 0.15 +
+                       (75600 - 37450) * 0.25 + (115225 - 75600) * 0.28 +
+                       (income - 115225) * 0.33;
+                 taxRate = 33;
+               }//end of else if
+               else if (income <= 232425) {
+                  tax = 9225 * 0.10 + (37450 - 9225) * 0.15 +
+                        (75600 - 37450) * 0.25 + (115225 - 75600) * 0.28 +
+                        (205750 - 115225) * 0.33 + (income - 205750) * 0.35;
+                  taxRate = 35;
+               }//end of else if
+               else {
+                  tax = 9225 * 0.10 + (37450 - 9225) * 0.15 +
+                        (90750 - 37450) * 0.25 + (115225 - 75600) * 0.28 +
+                        (205750- 115225) * 0.33 + (232425 - 205750) * 0.35 + (income - 232425) * .396;
+                  taxRate = 39.6;
+               }//end of else
+
 
              
              
@@ -130,6 +203,41 @@ function calculateTax(){
           
           else if(status == 3) {
                 //INSERT YOUR CODE BELOW
+                if (income <= 13150){
+                 tax = income * 0.10;
+                 taxRate = 10;
+               }//end of nested if
+               else if (income <= 50200) {
+                 tax = 13150 * 0.10 + (income - 13150) * 0.15;
+                 taxRate = 15;
+               }//end of else if
+               else if (income <= 90750) {
+                 tax = 13150 * 0.10 + (50200 - 13150) * 0.15 + (income - 37450) * 0.25;
+                 taxRate = 25;
+               } //end of else if
+               else if (income <= 209850) {
+                 tax = 13150 * 0.10 + (50200 - 13150) * 0.15 +
+                       (129600 - 50200) * 0.25 + (income - 90750) * 0.28;
+                 taxRate = 28;
+               }//end of else if
+               else if (income <= 411500) {
+                 tax = 13150 * 0.10 + (50200 - 13150) * 0.15 +
+                       (129600 - 50200) * 0.25 + (209850 - 90750) * 0.28 +
+                       (income - 189300) * 0.33;
+                 taxRate = 33;
+               }//end of else if
+               else if (income <= 439000) {
+                  tax = 13150 * 0.10 + (50200 - 13150) * 0.15 +
+                        (129600 - 50200) * 0.25 + (209850 - 90750) * 0.28 +
+                        (411500 - 189300) * 0.33 + (income - 411500) * 0.35;
+                  taxRate = 35;
+               }//end of else if
+               else {
+                  tax = 13150 * 0.10 + (50200 - 13150) * 0.15 +
+                        (129600 - 50200) * 0.25 + (209850200 - 411500 ) * 0.35 + (income - 43900) * .396;
+                  taxRate = 39.6;
+               }//end of else
+
  
  
 
@@ -160,6 +268,10 @@ function calculateTax(){
           document.getElementById("taxEstimate").innerHTML = "Tax:  <b>$" + tax.toFixed(2) + "<b></br><br>";
           
           document.getElementById("taxBracket").innerHTML = "Tax Bracket: <b>" + taxRate + "</b>%";
+          
+
+
+
           
       
       
@@ -194,13 +306,14 @@ function clearButton () {
     
               //This code removes the taxable income the user entered in the textfield.
               document.getElementById("incomeInput").value = "";
-              
-              
+
               
               //This code resets the dropdown box to the "Single" filer status.
               document.getElementById("filingStatus").selectedIndex = 0;
               
              //INSERT YOUR CODE BELOW
+             document.getElementById("taxBracket").innerHTML = ""; 
+             document.getElementById("taxEstimate").innerHTML = ""; 
 
 
 
